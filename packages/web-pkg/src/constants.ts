@@ -1,7 +1,7 @@
 export abstract class ImageDimension {
   static readonly Thumbnail: [number, number] = [64, 64]
   static readonly Small: [number, number] = [320, 320]
-  static readonly Medium: [number, number] = [448, 448]
+  static readonly Medium: [number, number] = [320, 320]
   static readonly Preview: [number, number] = [1200, 1200]
   static readonly Avatar: number = 64
 }
