@@ -121,7 +121,7 @@ describe('useLoadPreview', () => {
             const resource = mock<Resource>({ isInVault: false, thumbnail: undefined })
             await loadPreview({ space, resource })
             expect(previewService.loadPreview).toHaveBeenCalledWith(
-              expect.objectContaining({ dimensions: [768, 768] }),
+              expect.objectContaining({ dimensions: [320, 320] }),
               expect.anything(),
               expect.anything(),
               expect.anything()
@@ -139,7 +139,7 @@ describe('useLoadPreview', () => {
             const resource = mock<Resource>({ isInVault: false, thumbnail: undefined })
             await loadPreview({ space, resource })
             expect(previewService.loadPreview).toHaveBeenCalledWith(
-              expect.objectContaining({ dimensions: [448, 448] }),
+              expect.objectContaining({ dimensions: [320, 320] }),
               expect.anything(),
               expect.anything(),
               expect.anything()
@@ -175,7 +175,7 @@ describe('useLoadPreview', () => {
             const resource = mock<Resource>({ isInVault: false, thumbnail: undefined })
             await loadPreview({ space, resource })
             expect(previewService.loadPreview).toHaveBeenCalledWith(
-              expect.objectContaining({ dimensions: [512, 512] }),
+              expect.objectContaining({ dimensions: [320, 320] }),
               expect.anything(),
               expect.anything(),
               expect.anything()
@@ -193,7 +193,7 @@ describe('useLoadPreview', () => {
             const resource = mock<Resource>({ isInVault: false, thumbnail: undefined })
             await loadPreview({ space, resource })
             expect(previewService.loadPreview).toHaveBeenCalledWith(
-              expect.objectContaining({ dimensions: [768, 768] }),
+              expect.objectContaining({ dimensions: [320, 320] }),
               expect.anything(),
               expect.anything(),
               expect.anything()
