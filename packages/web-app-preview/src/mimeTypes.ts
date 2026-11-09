@@ -17,6 +17,7 @@ export const mimeTypes = [
   'image/tiff',
   'image/bmp',
   'image/webp',
+  'image/x-canon-cr3',
   'image/x-ms-bmp',
   'video/matroska',
   'video/mp4',
